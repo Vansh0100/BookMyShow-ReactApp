@@ -12,67 +12,67 @@ const MoviePage = () => {
   const { id } = useParams();
   const settingsCast = {
     infinite: false,
-    speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 4,
-    InitialSlide: 0,
-    responsive: [
-      {
-        breakpoints: 1024,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 3,
-          infinite: true,
-        },
-      },
-      {
-        breakpoints: 600,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 2,
-          InitialSlide: 2,
-        },
-      },
-      {
-        breakpoints: 400,
-        settings: {
-          slidesToShow: 6,
-          slidesToScroll: 3,
-        },
-      },
-    ],
+        speed: 500,
+        slidesToShow: 6,
+        slidesToScroll: 4,
+        initialSlide: 0,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 3,
+                    infinite: true,
+                },
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                    initialSlide: 2,
+                },
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
   };
   const settings = {
     infinite: false,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    InitialSlide: 0,
-    responsive: [
-      {
-        breakpoints: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-        },
-      },
-      {
-        breakpoints: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          InitialSlide: 2,
-        },
-      },
-      {
-        breakpoints: 400,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+        speed: 500,
+        slidesToShow: 5,
+        slidesToScroll: 3,
+        initialSlide: 0,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                    infinite: true,
+                },
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                    initialSlide: 2,
+                },
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
   };
   const [cast, setCast] = useState([]);
   const [similarMovies, setSimilarMovies] = useState([]);
@@ -92,13 +92,6 @@ const MoviePage = () => {
     };
     requestSimilar();
   }, [id]);
-  // useEffect(() => {
-  //   const requestRecommended = async () => {
-  //     const getRecommended = await axios.get(`/movie/${id}/recommendations`);
-  //     setRecommended(getRecommended.data.results);
-  //   };
-  //   requestRecommended();
-  // }, []);
   return (
     <>
       <MovieHero />
@@ -115,10 +108,10 @@ const MoviePage = () => {
           <h2 className="text-gray-800 font-bold text-2xl mb-3">
             Applicable Offers
           </h2>
-          <div className="flex flex-col gap-3 lg:flex-row">
+          <div className="flex flex-col lg:flex-row items-start gap-3">
             <div className="flex items-start gap-2 bg-yellow-100 p-3 border-yellow-400 border-dashed border-2 rounded-md">
               <div className="w-8 h-8">
-                <FaCcVisa className="w-fill h-fill" />
+                <FaCcVisa className="w-full h-full" />
               </div>
               <div className="flex flex-col items-start">
                 <h3 className="text-gray-700 text-xl font-bold">
@@ -132,7 +125,7 @@ const MoviePage = () => {
             </div>
             <div className="flex items-start gap-2 bg-yellow-100 p-3 border-yellow-400 border-dashed border-2 rounded-md">
               <div className="w-8 h-8">
-                <FaCcAmazonPay className="w-fill h-fill" />
+                <FaCcAmazonPay className="w-full h-full" />
               </div>
               <div className="flex flex-col items-start">
                 <h3 className="text-gray-700 text-xl font-bold">Filmy Pass</h3>

@@ -13,16 +13,16 @@ const Plays=()=>{
                             <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAxNyBEZWMgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:oi-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,ox-15,oy-15,ow-50/et00319282-mhghfwmyql-portrait.jpg" title="Celebrating Salim Arif" subtitle="Multiple Venues"/>
                         </div>
                         <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                            <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAxNyBEZWMgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:oi-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,ox-15,oy-15,ow-50/et00319282-mhghfwmyql-portrait.jpg" title="Celebrating Salim Arif" subTitle="Multiple Venues"/>
+                            <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxOSBEZWM%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00316660-ugpesmvzxb-portrait.jpg" title="Beyond The Horizon" subTitle="Watch on Zoom"/>
                         </div>
                         <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                            <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAxNyBEZWMgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:oi-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,ox-15,oy-15,ow-50/et00319282-mhghfwmyql-portrait.jpg" title="Celebrating Salim Arif" subTitle="Multiple Venues"/>
+                            <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAxNyBEZWM%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00319721-xvngjvnckd-portrait.jpg" title="The Power of Now" subTitle="Watch on Zoom"/>
                         </div>
                         <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                            <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAxNyBEZWMgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:oi-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,ox-15,oy-15,ow-50/et00319282-mhghfwmyql-portrait.jpg" title="Celebrating Salim Arif" subTitle="Multiple Venues"/>
+                            <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-V2VkLCAxNSBEZWM%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00319169-lezkwpxuhj-portrait.jpg" title="Chaiful Stories" subTitle="Watch on Zoom"/>
                         </div>
                         <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                            <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAxNyBEZWMgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:oi-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,ox-15,oy-15,ow-50/et00319282-mhghfwmyql-portrait.jpg" title="Celebrating Salim Arif" subTitle="Multiple Venues"/>
+                            <Poster src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAxNyBEZWMgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:oi-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,ox-15,oy-15,ow-50/et00319620-qxzdqqpbjk-portrait.jpg" title="Swatantra Rang Theatre" subTitle="Multiple Venues"/>
                         </div>
                     </div>
                 </div>

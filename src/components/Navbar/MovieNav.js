@@ -21,13 +21,13 @@ function NavSm(){
 function NavLg(){
     return (
         <>
-            <div className="container flex  mx-auto px-4 items-center justify-between">
-                <div className="flex items-center w-1/2 gap-3">
-                    <div className="w-10 h-10">
+            <div className="container flex  mx-auto items-center justify-between">
+                <div className="flex w-1/2 gap-3 items-center justify-between">
+                    <div className="w-1/4 h-10">
                         <img src='https://lh3.googleusercontent.com/m0T5pBN2VgwdbWqJCHj75qsgIXIZEf8TPtfSK3el65lxNnoxMJwF9GwEwysG-vq9Fag' alt='logo' className="w-full h-full" />
                     </div>
                     <div className="w-full flex items-center gap-3
-                    bg-white rounded-md px-3 py-1">
+                    bg-white rounded-lg px-3 py-1">
                         <BiSearch/>
                         <input type="search" className="w-full bg-transparent border-none focus:outline-none" placeholder="Search for movies, events, plays, sports, activities"/>
                     </div>
