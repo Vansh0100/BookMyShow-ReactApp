@@ -40,7 +40,7 @@ function Home() {
           isDark={false}
         />
       </div>
-      <div className="container mx-auto px-12">
+      <div className="container mx-auto px-12 my-12">
         <h1 className="text-2xl font-bold text-gray-800 my-2">
           The Best of Entertainment
         </h1>
