@@ -5,12 +5,28 @@ export default function Payment({ isOpen, setIsOpen, price }) {
   function closeModal() {
     setIsOpen(false);
   }
-  const launchRazorpay = () => {
+  const loadScript=async(src)=>{
+    return new Promise((resolve)=>{
+      const script=document.createElement("script");
+      script.src=src;
+      script.onload=()=>resolve(true);
+      script.onerror=()=>resolve(false);
+
+      document.body.appendChild(script);
+    })
+  }
+  const launchRazorpay =async () => {
+    const res=await loadScript("https://checkout.razorpay.com/v1/checkout.js");
+    if(!res){
+      alert("You are not online!");
+      return;
+    }
+
     let options = {
-      key: "rzp_test_4wAdRM3HCaEdjH",
+      key: "rzp_test_PbhUbGnZaA2pm5",
       amount: price * 100,
       currency: "INR",
-      name: "Book My Show Clone Project",
+      name: "Movies Hub",
       description: "Rent or Buy a Movie",
       image:
         "https://lh3.googleusercontent.com/m0T5pBN2VgwdbWqJCHj75qsgIXIZEf8TPtfSK3el65lxNnoxMJwF9GwEwysG-vq9Fag",
